@@ -48,7 +48,7 @@ class TvDatafeed:
             password (str, optional): tradingview password. Defaults to None.
         """
 
-        self.ws_debug = True
+        self.ws_debug = False
         self.token = username
         #self.token = self.__auth(username, password)
 
